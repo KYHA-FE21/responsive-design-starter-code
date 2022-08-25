@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+
+.page {
+  margin: 70px 0;
+}
+
+.wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+  min-height: 600px;
+}
+
+.content-wrapper {
+  width: 100%;
+}
+
+.content {
+  margin-right: 320px;
+  overflow: auto;
+  background-image: linear-gradient(
+    to bottom,
+    #ffdbf0,
+    #fad3f1,
+    #f3cdf3,
+    #eac6f6,
+    #dec1fa,
+    #cbc7ff,
+    #b9ccff,
+    #a9d0ff,
+    #9ddcff,
+    #98e7ff,
+    #9cf1fc,
+    #a8faf4
+  );
+  min-height: 600px;
+}
+
+.sidebar {
+  position: relative;
+  width: 320px;
+  margin-left: -320px;
+
+  overflow: hidden;
+  background-image: linear-gradient(
+    to bottom,
+    #ff67bf,
+    #f25fca,
+    #e25ad5,
+    #cd57e2,
+    #b258ee,
+    #8674fd,
+    #5488ff,
+    #0097ff,
+    #00b4ff,
+    #00ceff,
+    #00e5fb,
+    #3bf9eb
+  );
+  color: #333;
+  min-height: 600px;
+}
