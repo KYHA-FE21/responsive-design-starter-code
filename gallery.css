@@ -16,7 +16,7 @@ h1 {
 p {
   font-size: 1rem;
 }
-/*-fx-image-gal */
+
 .gallery {
   display: flex;
   flex-direction: column;
@@ -27,7 +27,6 @@ p {
   justify-content: center;
 }
 
-/*-fx-gal-item*/
 .gallery-item {
   width: 100%;
   margin: 0px;
@@ -35,7 +34,6 @@ p {
   overflow: hidden;
 }
 
-/*-fx-gal-image-thumb*/
 .gallery-image-thumb img {
   width: 100%;
   height: 20rem;
